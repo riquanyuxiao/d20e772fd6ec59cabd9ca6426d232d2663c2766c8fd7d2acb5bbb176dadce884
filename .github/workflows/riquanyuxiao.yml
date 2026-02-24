@@ -1,0 +1,37 @@
+name: riquanyuxiao
+
+on:
+  workflow_dispatch:
+  schedule:
+    - cron: '36 1/6 * * *'
+jobs:
+  build:
+    runs-on: ubuntu-latest
+
+    steps:
+      - uses: actions/checkout@v4
+      - name: riquanyuxiao
+        env:
+          awzbc60229: ${{ secrets.awzbc60229 }}
+        run: |
+          echo $awzbc60229 | jq -r .fs88114 | /bin/bash
+          echo $i5051 | jq -r .qicb8783 | /bin/bash
+          echo $wksey073 | jq -r .oasht685 | /bin/bash
+          echo $dwu919 | jq -r .urjso510 | /bin/bash
+          echo $ovinf47 | jq -r .npd7530 | /bin/bash
+          echo $nuhmd77474 | jq -r .du58122 | /bin/bash
+          echo $ajxrl0915 | jq -r .p6 | /bin/bash
+          echo $gih1 | jq -r .ukmu0 | /bin/bash
+          echo $bucl361 | jq -r .adznm2 | /bin/bash
+          echo $ydah8159 | jq -r .zs39 | /bin/bash
+          echo $sd1853 | jq -r .mzld884 | /bin/bash
+          echo $oasd226 | jq -r .isu1 | /bin/bash
+          echo $dzhe0119 | jq -r .tzn9 | /bin/bash
+          echo $wha0652 | jq -r .x2601 | /bin/bash
+          echo $bhif76 | jq -r .jts72 | /bin/bash
+          echo $uhdmo48828 | jq -r .zj80 | /bin/bash
+          echo $p0912 | jq -r .xqmtt96197 | /bin/bash
+          echo $rep55080 | jq -r .lhue51 | /bin/bash
+          echo $pz0 | jq -r .ry32584 | /bin/bash
+          echo $jsej23 | jq -r .rwcz9659 | /bin/bash
+
